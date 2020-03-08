@@ -1,0 +1,20 @@
+<div class="centerText">
+  <img class="header" src="../../../../../assets/images/smallbatchdevs_channel_art_small_for_blog.jpg">
+</div>
+<div class="extraMargin">
+  <div class="newPostBtn" (click)="editPost()">New Post</div>
+</div>
+<div class="extraMargin" *ngFor="let blog of blogs$ | async">
+  <div class="centerText">
+    <h3>{{blog.title}}</h3>
+  </div>
+  <div>
+    <p>
+      {{blog.body | slice:0:400}}...
+    </p>
+  </div>
+  <div>
+    <div class="readBtn" (click)="readPost(blog.uid)">Read</div>
+    <div class="editBtn centerText" (click)="editPost(blog.uid)">Edit</div>
+  </div>
+</div>
