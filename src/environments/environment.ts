@@ -5,14 +5,14 @@
 export const environment = {
   production: false,
   firebaseConfig : {
-    apiKey: "AIzaSyDndOlL6Iv4yIYhQNbfaA0qaJv8BxnCGho",
-    authDomain: "sbd-blog.firebaseapp.com",
-    databaseURL: "https://sbd-blog.firebaseio.com",
-    projectId: "sbd-blog",
-    storageBucket: "sbd-blog.appspot.com",
-    messagingSenderId: "820680123287",
-    appId: "1:820680123287:web:ed929701ae0565fcbedad2",
-    measurementId: "G-GZSDBMNM3X"
+    apiKey: "YOUR FIREBASE API KEY",
+    authDomain: "YOUR AUTH DOMAIN",
+    databaseURL: "YOUR DATABASE URL",
+    projectId: "YOUR PROJECT ID",
+    storageBucket: "YOUR STORAGE BUCKET",
+    messagingSenderId: "YOUR MESSAGING SENDER ID",
+    appId: "YOUR APP ID",
+    measurementId: "YOUR MEASUREMENT ID"
   }
 
 };
